@@ -1425,24 +1425,6 @@
   }
 },
 {
-  "model": "auth.user",
-  "pk": 3,
-  "fields": {
-    "password": "pbkdf2_sha256$30000$eIoVnauBvLhA$aPWJSlHK+F/rW7SKunxJ/RnXNQHx0uh6K/kVRyPn0XY=",
-    "last_login": "2017-04-23T19:58:19.460Z",
-    "is_superuser": true,
-    "username": "admin",
-    "first_name": "Admin",
-    "last_name": "User",
-    "email": "admin@example.com",
-    "is_staff": true,
-    "is_active": true,
-    "date_joined": "2017-02-17T07:37:53.700Z",
-    "groups": [],
-    "user_permissions": []
-  }
-},
-{
   "model": "wagtailcore.grouppagepermission",
   "pk": 1,
   "fields": {
