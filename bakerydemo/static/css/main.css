@@ -231,8 +231,9 @@ cite {
 .header {
   padding: 15px 0 15px;
   width: 100%;
-  background: rgb(25,17,18);
-  background: linear-gradient(135deg, rgba(25,17,18,1) 0%,rgba(55,28,25,1) 100%);
+  /*background: rgb(25,17,18);
+  background: linear-gradient(135deg, rgba(25,17,18,1) 0%,rgba(55,28,25,1) 100%);*/
+  background: #c8c82a;
   z-index: 10;
 }
 .header h3 {
@@ -321,7 +322,7 @@ nav {
 .nav-pills>li, .nav-pills>li, .nav>li>a, .nav>li>a {
   border-top: 1px solid transparent;
 }
-/* The following is to stop a pixel shift on hover */ 
+/* The following is to stop a pixel shift on hover */
 .nav-pills>li.breads {
   width: 90px;
 }
@@ -733,7 +734,7 @@ span.outline {
   margin-right: 10px;
 }
 
-.form-page .fieldWrapper ul, 
+.form-page .fieldWrapper ul,
 .form-page .fieldWrapper li {
   list-style: none;
   padding: 0;
