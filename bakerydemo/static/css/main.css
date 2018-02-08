@@ -14,14 +14,14 @@
 /* 9. Miscellaneous/ Helper styles ------------------------------------------ */
 
 /* Global styles */
-@import url('https://fonts.googleapis.com/css?family=Karla|Libre+Franklin');
+@import url('https://fonts.googleapis.com/css?family=Open+Sans|Rubik');
 
 
 body {
   padding-top: 0;
   padding-bottom: 0;
   font-size: 19px;
-  /*font-family: 'Alegreya', serif;*/
+  font-family: 'Open Sans', sans-serif;
   background: rgb(255,255,255);
   background: linear-gradient(135deg,  rgba(255,255,255,1) 0%,rgba(255,255,255,1) 50%,rgba(233,228,221,1) 100%);
   min-height: 100vh;
@@ -35,8 +35,8 @@ body {
 
 h1 {
   font-weight: 300;
-  /*font-family: 'Lato', sans-serif;*/
-  font-family: 'Libre Franklin', sans-serif;
+
+  font-family: 'Open Sans', sans-serif;
   position: relative;
 }
 
@@ -46,22 +46,22 @@ h1 {
 
 h2 {
   font-weight: 900;
-  /*font-family: 'Lato', sans-serif;*/
-  font-family: 'Libre Franklin', sans-serif;
+
+  font-family: 'Open Sans', sans-serif;
   color: #63210d;
 }
 
 h3 {
   font-weight: 900;
-  /*font-family: 'Lato', sans-serif;*/
-  font-family: 'Libre Franklin', sans-serif;
+
+  font-family: 'Open Sans', sans-serif;
   color: #63210d;
 }
 
 h4 {
   font-weight: 600;
-  /*font-family: 'Lato', sans-serif;*/
-  font-family: 'Libre Franklin', sans-serif;
+
+  font-family: 'Open Sans', sans-serif;
   color: #63210d;
   font-size: 22px;
 }
@@ -85,8 +85,8 @@ a.btn {
   background-color: #d4566b;
   color: white;
   display: inline-block;
-  /*font-family: 'Lato', sans-serif;*/
-  font-family: 'Libre Franklin', sans-serif;
+
+  font-family: 'Open Sans', sans-serif;
   font-size: 16px;
   font-weight: 300;
   letter-spacing: 0.15em;
@@ -157,8 +157,8 @@ figcaption {
   background-color: rgba(99,33,13,0.8);
   bottom: 0;
   color: white;
-  /*font-family: 'Lato', sans-serif;*/
-  font-family: 'Libre Franklin', sans-serif;
+
+  font-family: 'Open Sans', sans-serif;
   font-size: 16px;
   font-weight: 300;
   left: 0;
@@ -173,8 +173,8 @@ img {
 
 /* Generic detail page styles */
 .intro {
-  /*font-family: 'Lato', sans-serif;*/
-  font-family: 'Libre Franklin', sans-serif;
+
+  font-family: 'Open Sans', sans-serif;
   font-weight: 300;
   margin: 0 0 40px;
   font-size: 22px;
@@ -221,8 +221,8 @@ blockquote footer p {
   font-style: italic;
 }
 cite {
-  /*font-family: 'Lato', sans-serif;*/
-  font-family: 'Libre Franklin', sans-serif;
+
+  font-family: 'Open Sans', sans-serif;
   text-transform: uppercase;
   color: #888;
   font-size: 12px;
@@ -315,8 +315,8 @@ nav {
   border-top: 1px solid transparent;
   color: white;
   color: white;
-  /*font-family: 'Lato', sans-serif;*/
-  font-family: 'Libre Franklin', sans-serif;
+
+  font-family: 'Open Sans', sans-serif;
   font-size: 11px;
   font-weight: 300;
   letter-spacing: 0.15em;
@@ -377,8 +377,8 @@ nav {
 .dropdown-menu > li> a {
   border-bottom: 1px solid #371c19;
   color: #fff;
-  /*font-family: 'Lato', sans-serif;*/
-  font-family: 'Libre Franklin', sans-serif;
+
+  font-family: 'Open Sans', sans-serif;
   padding: 10px 20px;
 }
 
@@ -406,8 +406,8 @@ li.has-submenu a.allow-toggle {
 }
 .footer {
   font-size: 16px;
-  /*font-family: 'Lato', sans-serif;*/
-  font-family: 'Libre Franklin', sans-serif;
+
+  font-family: 'Open Sans', sans-serif;
   padding: 20px 0;
   margin: 40px 0 0;
   font-weight: 300;
@@ -445,8 +445,8 @@ li.has-submenu a.allow-toggle {
 .breadcrumb {
   background-color: transparent;
   color: #ccc;
-  /*font-family: 'Lato', sans-serif;*/
-  font-family: 'Libre Franklin', sans-serif;
+
+  font-family: 'Open Sans', sans-serif;
   font-size: 14px;
   margin-bottom: 0px;
   padding-left: 0px;
@@ -509,8 +509,8 @@ nav[role=pagination] {
 }
 .location-list-item address {
   font-weight: 300;
-  /*font-family: 'Lato', sans-serif;*/
-  font-family: 'Libre Franklin', sans-serif;
+
+  font-family: 'Open Sans', sans-serif;
   font-size: 1.4em;
   padding: 10px 40px;
 }
@@ -524,8 +524,8 @@ nav[role=pagination] {
 }
 span.day {
   font-weight: bold;
-  /*font-family: 'Lato', sans-serif;*/
-  font-family: 'Libre Franklin', sans-serif;
+
+  font-family: 'Open Sans', sans-serif;
 }
 time.location-time {
   display: block;
@@ -768,8 +768,8 @@ span.outline {
 
 .form-page .help {
   color: #999;
-  /*font-family: 'Lato', sans-serif;*/
-  font-family: 'Libre Franklin', sans-serif;
+
+  font-family: 'Open Sans', sans-serif;
   font-size: 0.8em;
   margin-top: 10px;
   max-width: 350px;
