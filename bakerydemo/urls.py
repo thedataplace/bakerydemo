@@ -9,12 +9,12 @@ from wagtail.wagtailcore import urls as wagtail_urls
 from bakerydemo.search import views as search_views
 
 urlpatterns = [
-    url(r'^content/django-admin/', admin.site.urls),
+    url(r'^django-admin/', admin.site.urls),
 
-    url(r'^content/admin/', include(wagtailadmin_urls)),
-    url(r'^content/documents/', include(wagtaildocs_urls)),
+    url(r'^wagtail-admin/', include(wagtailadmin_urls)),
+    url(r'^documents/', include(wagtaildocs_urls)),
 
-    url(r'^content/search/$', search_views.search, name='search'),
+    url(r'^search/$', search_views.search, name='search'),
 
 ]
 
@@ -38,8 +38,8 @@ if settings.DEBUG:
 
     # Add views for testing 404 and 500 templates
     urlpatterns += [
-        url(r'^content/test404/$', TemplateView.as_view(template_name='404.html')),
-        url(r'^content/test500/$', TemplateView.as_view(template_name='500.html')),
+        url(r'^test404/$', TemplateView.as_view(template_name='404.html')),
+        url(r'^test500/$', TemplateView.as_view(template_name='500.html')),
     ]
 
 urlpatterns += [
