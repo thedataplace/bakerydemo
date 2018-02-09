@@ -43,5 +43,5 @@ if settings.DEBUG:
     ]
 
 urlpatterns += [
-    url(r'', include(wagtail_urls)),
+    url(r'^content/', include(wagtail_urls)),
 ]
