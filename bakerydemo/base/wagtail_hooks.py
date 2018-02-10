@@ -54,13 +54,15 @@ class FooterTextAdmin(ModelAdmin):
 
 
 class BakeryModelAdminGroup(ModelAdminGroup):
-    menu_label = 'Bakery Misc'
-    menu_icon = 'fa-cutlery'  # change as required
+    # menu_label = 'Bakery Misc'
+    menu_label = 'Misc'
+    # menu_icon = 'fa-cutlery'  # change as required
+    menu_icon = 'fa-suitcase'
     menu_order = 300  # will put in 4th place (000 being 1st, 100 2nd)
     items = (PeopleModelAdmin, FooterTextAdmin)
 
 
 # When using a ModelAdminGroup class to group several ModelAdmin classes together,
 # you only need to register the ModelAdminGroup class with Wagtail:
-modeladmin_register(BreadModelAdminGroup)
+# modeladmin_register(BreadModelAdminGroup)
 modeladmin_register(BakeryModelAdminGroup)
