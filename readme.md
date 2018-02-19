@@ -35,7 +35,7 @@ Setup with Vagrant
 Once you've installed the necessary dependencies run the following commands:
 
 ```bash
-git clone git@github.com:wagtail/bakerydemo.git
+git clone https://github.com/thedataplace/bakerydemo.git
 cd bakerydemo
 vagrant up
 vagrant ssh
@@ -60,13 +60,14 @@ Setup with Docker
 Run the following commands:
 
 ```bash
-git clone git@github.com:wagtail/bakerydemo.git
+git clone https://github.com/thedataplace/bakerydemo.git
 cd bakerydemo
 docker-compose up --build -d
+docker-compose run app /venv/bin/python manage.py createsuperuser #Follow the instructions, name your user `admin`
 docker-compose run app /venv/bin/python manage.py load_initial_data
 ```
 
-The demo site will now be accessible at [http://localhost:8000/](http://localhost:8000/) and the Wagtail admin
+The demo site will now be accessible at [http://localhost:8000/content](http://localhost:8000/content) and the Wagtail admin
 interface at [http://localhost:8000/admin/](http://localhost:8000/admin/).
 
 Log into the admin with the credentials ``admin / changeme``.
@@ -95,7 +96,7 @@ installed, run:
 
     mkvirtualenv wagtailbakerydemo
     cd ~/dev [or your preferred dev directory]
-    git clone git@github.com:wagtail/bakerydemo.git
+    git clone https://github.com/thedataplace/bakerydemo.git
     cd bakerydemo
     pip install -r requirements.txt
 
