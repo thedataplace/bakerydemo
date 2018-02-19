@@ -35,7 +35,7 @@ Setup with Vagrant
 Once you've installed the necessary dependencies run the following commands:
 
 ```bash
-git clone git@github.com:wagtail/bakerydemo.git
+git clone https://github.com/thedataplace/bakerydemo.git
 cd bakerydemo
 vagrant up
 vagrant ssh
@@ -60,7 +60,7 @@ Setup with Docker
 Run the following commands:
 
 ```bash
-git clone git@github.com:wagtail/bakerydemo.git
+git clone https://github.com/thedataplace/bakerydemo.git
 cd bakerydemo
 docker-compose up --build -d
 docker-compose run app /venv/bin/python manage.py createsuperuser #Follow the instructions, name your user `admin`
@@ -96,7 +96,7 @@ installed, run:
 
     mkvirtualenv wagtailbakerydemo
     cd ~/dev [or your preferred dev directory]
-    git clone git@github.com:wagtail/bakerydemo.git
+    git clone https://github.com/thedataplace/bakerydemo.git
     cd bakerydemo
     pip install -r requirements.txt
 
