@@ -63,7 +63,8 @@ Run the following commands:
 git clone https://github.com/thedataplace/bakerydemo.git
 cd bakerydemo
 docker-compose up --build -d
-docker-compose run app /venv/bin/python manage.py createsuperuser #Follow the instructions, name your user `admin`
+# Important! Name your user `admin` for the fixtures to work
+docker-compose run app /venv/bin/python manage.py createsuperuser
 docker-compose run app /venv/bin/python manage.py load_initial_data
 ```
 
