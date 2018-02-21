@@ -173,11 +173,10 @@ img {
 
 /* Generic detail page styles */
 .intro {
-
   font-family: 'Rubik', sans-serif;
   font-weight: 300;
   margin: 0 0 40px;
-  font-size: 22px;
+  font-size: 28px;
 }
 .stand-first {
   color: rgba(255,255,255,0.8);
@@ -193,10 +192,18 @@ img {
   margin: 0 0 30px;
 }
 content[role="main"] {
-  padding-top: 150px;
+  padding-top: 205px;
   display: block;
 }
+/* forces main content for blogs to the center */
+content[role="main"] > .container > .row > .col-md-8 {
+  margin: 0 auto;
+  float: none;
+}
 @media screen and (min-width: 768px) {
+  content[role="main"] {
+    padding-top: 0;
+  }
   .hero {
     padding: 200px 0 60px 0;
     margin: 0 0 40px;
@@ -337,6 +344,9 @@ ul.nav.nav-pills {
   float: none !important;
 }
 @media (max-width: 768px) {
+  ul.nav.nav-pills {
+    float: none;
+  }
   #main-navigation {
     position: absolute;
     width: 100%;
@@ -678,8 +688,7 @@ span.outline {
 
 /* Blog detail page */
 .blog-meta {
-    margin-top: -40px;
-    margin-bottom: 20px;
+    margin-bottom: 40px;
 }
 .blog-avatar {
     border-radius: 100%;
@@ -688,10 +697,18 @@ span.outline {
 }
 .blog-avatars {
     margin-bottom: 20px;
+    display: inline;
+    border-right: 5px solid #eee;
+    padding-right: .5em;
+    font-weight: bold;
 }
 .blog-avatars .author {
   display: inline-block;
-  margin-right: 30px;
+}
+.blog-byline {
+  display: inline;
+  padding-left: .5em;
+  font-weight: 100;
 }
 
 /* Bread styles */
