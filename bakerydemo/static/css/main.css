@@ -192,7 +192,7 @@ img {
   margin: 0 0 30px;
 }
 content[role="main"] {
-  padding-top: 205px;
+  padding-top: 210px;
   display: block;
 }
 /* forces main content for blogs to the center */
@@ -200,9 +200,9 @@ content[role="main"] > .container > .row > .col-md-8 {
   margin: 0 auto;
   float: none;
 }
-@media screen and (min-width: 768px) {
+@media screen and (max-width: 768px) {
   content[role="main"] {
-    padding-top: 0;
+    padding-top: 45px;
   }
   .hero {
     padding: 200px 0 60px 0;
