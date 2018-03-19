@@ -193,7 +193,6 @@ img {
 }
 content[role="main"] {
   display: block;
-  padding-top: 1.5em;
 }
 /* forces main content for blogs to the center */
 content[role="main"] > .container > .row > .col-md-8 {
@@ -485,9 +484,6 @@ li.has-submenu a.allow-toggle {
   position: relative;
   z-index: 3;
   display: none !important
-}
-.breadcrumb-container + content > .hero {
-  margin-top: -36px;
 }
 .breadcrumb {
   background-color: transparent;
