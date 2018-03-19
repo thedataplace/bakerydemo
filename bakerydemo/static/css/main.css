@@ -173,10 +173,10 @@ img {
 
 /* Generic detail page styles */
 .intro {
-  font-family: 'Rubik', sans-serif;
-  font-weight: 300;
-  margin: 0 0 40px;
-  font-size: 28px;
+  font-weight: 100;
+  margin: 50px 0 70px 0;
+  font-size: 22px;
+  line-height: 2em;
 }
 .stand-first {
   color: rgba(255,255,255,0.8);
@@ -192,8 +192,8 @@ img {
   margin: 0 0 30px;
 }
 content[role="main"] {
-  padding-top: 210px;
   display: block;
+  padding-top: 1.5em;
 }
 /* forces main content for blogs to the center */
 content[role="main"] > .container > .row > .col-md-8 {
@@ -202,7 +202,7 @@ content[role="main"] > .container > .row > .col-md-8 {
 }
 @media screen and (max-width: 768px) {
   content[role="main"] {
-    padding-top: 45px;
+    padding-top: 52px;
   }
   .hero {
     padding: 200px 0 60px 0;
@@ -255,7 +255,6 @@ cite {
   width: 100%;
   background: rgba(255,255,255,0.8);
   z-index: 10;
-  position: fixed;
 }
 @media (max-width: 768px) {
   .header {
@@ -269,6 +268,7 @@ cite {
   display: table;
   float: none;
   width: 100%;
+  margin: 0;
 }
 .header h3 {
   margin-top: 0;
@@ -709,6 +709,12 @@ span.outline {
   display: inline;
   padding-left: .5em;
   font-weight: 100;
+}
+
+/* Blog content */
+.block-heading_block > *,
+.block-paragraph_block > * {
+  line-height: 2em;
 }
 
 /* Bread styles */
